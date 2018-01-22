@@ -1,0 +1,3 @@
+include ':app', ':volley', ':sample', ':library'
+project(':sample').projectDir = new File('libs/android-floating-action-button/sample')
+project(':library').projectDir = new File('libs/android-floating-action-button/library')
