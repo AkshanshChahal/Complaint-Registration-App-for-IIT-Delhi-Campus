@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Complaints"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Complaints" />
+        <item
+            android:id="@+id/Add_a_complaint"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Add a complaint" />
+        <item
+            android:id="@+id/Notifications"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Notifications" />
+
+    </group>
+
+
+
+</menu>
