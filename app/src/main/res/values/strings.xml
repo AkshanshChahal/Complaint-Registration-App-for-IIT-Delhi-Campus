@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Complaint app</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigation_drawer">navigation_drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_add_a_complaint">add_a_complaint</string>
+    <string-array name="type">
+        <item>individual</item>
+        <item>hostel</item>
+        <item>institute</item>
+    </string-array>
+    <string-array name="individual">
+        <item>electrician</item>
+        <item>sweeper</item>
+        <item>carpenter</item>
+    </string-array>
+    <string-array name="hostel">
+        <item>maintenance</item>
+        <item>sports</item>
+        <item>warden</item>
+        <item>mess</item>
+        <item>house</item>
+    </string-array>
+    <string-array name="help">
+        <item>main secy</item>
+        <item>sports secy</item>
+        <item>warden</item>
+        <item>mess secy</item>
+        <item>house secy</item>
+        <item>director</item>
+        <item>bsw</item>
+        <item>security</item>
+        <item>acadmics</item>
+    </string-array>
+    <string-array name="Institute">
+        <item>director</item>
+        <item>bsw</item>
+        <item>security</item>
+        <item>dean of acadmics</item>
+        <item>admin</item>
+    </string-array>
+    <string-array name="sort">
+        <item>date</item>
+        <item>popularity</item>
+    </string-array>
+    <string-array name="help2">
+        <item>individual</item>
+        <item>all</item>
+    </string-array>
+    <string-array name="show">
+        <item>individual</item>
+        <item>hostel</item>
+        <item>institute</item>
+        <item>all</item>
+        <item>tO_you</item>
+    </string-array>
+    <string-array name="individual1">
+        <item>none</item>
+    </string-array>
+    <string-array name="modify">
+        <item>username</item>
+        <item>password</item>
+        <item>hostel</item>
+        <item>usertype</item>
+        <item>department</item>
+    </string-array>
+    <string name="title_activity_complaint_details">complaint_details</string>
+    <string name="title_activity_add_a_user">add_a_user</string>
+    <string name="title_activity_delete_a_user">delete_a_user</string>
+    <string name="title_activity_modify_a_user">modify_a_user</string>
+</resources>
