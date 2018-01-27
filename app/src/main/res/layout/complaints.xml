@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:nestedScrollingEnabled="true"
+    >
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="61dp"
+        android:id="@+id/editText3"
+        android:hint="search"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/imageButton"
+        android:layout_alignLeft="@+id/spinner3"
+        android:layout_alignStart="@+id/spinner3"
+        android:textColor="#080707"
+        android:textColorHint="#080707" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="47dp"
+        android:id="@+id/imageButton"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_alignRight="@+id/complaintlist"
+        android:layout_alignEnd="@+id/complaintlist" />
+
+    <Spinner
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:id="@+id/spinner3"
+        android:entries="@array/sort"
+        android:layout_below="@+id/editText3"
+        android:layout_alignLeft="@+id/complaintlist"
+        android:layout_alignStart="@+id/complaintlist"
+        android:layout_toLeftOf="@+id/imageButton"
+        android:layout_toStartOf="@+id/imageButton" />
+
+    <ListView
+        android:layout_width="338dp"
+        android:layout_height="351dp"
+        android:id="@+id/complaintlist"
+        android:layout_gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/spinner4" />
+
+    <Spinner
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner4"
+
+        android:entries="@array/show"
+        android:layout_below="@+id/spinner3"
+        android:layout_alignLeft="@+id/complaintlist"
+        android:layout_alignStart="@+id/complaintlist"
+        android:layout_alignRight="@+id/spinner3"
+        android:layout_alignEnd="@+id/spinner3" />
+</RelativeLayout>

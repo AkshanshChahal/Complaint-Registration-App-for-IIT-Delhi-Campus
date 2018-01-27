@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:layout_margin="30dp"
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a Complaint"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#030303"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_gravity="center_horizontal"
+        android:hint="title"
+        android:textAlignment="center"
+        android:textColor="#080707" />
+
+    <Spinner
+        android:layout_width="313dp"
+        android:layout_height="52dp"
+        android:id="@+id/spinner"
+        android:entries="@array/type"
+        android:layout_alignBaseline="@+id/spinner2"
+        android:layout_alignBottom="@+id/spinner2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <Spinner
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_margin="10dp"/>
+
+    <Spinner
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner"
+        android:id="@+id/spinner9"
+        android:entries="@array/help2"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="369dp"
+        android:layout_height="150dp"
+        android:id="@+id/editText"
+        android:hint="Description"
+        android:layout_above="@+id/button"
+        android:layout_alignRight="@+id/spinner"
+        android:layout_alignEnd="@+id/spinner"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner"
+        android:layout_margin="10dp"
+        android:textColor="#050505"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POST"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
